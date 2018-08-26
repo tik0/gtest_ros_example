@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+     <node name="rostalker1" pkg="ros_gtest" type="rostalker"/>   
+     <node name="roslistener1" pkg="ros_gtest" type="roslistener" output="screen"/>
+</launch>
+
