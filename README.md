@@ -19,7 +19,7 @@ First of all one as to build gtest, because installing `libgtest-dev` under Ubun
 In this case, just create your own library folder for example in your home:
 
     mkdir ~/lib
-    cp *.a /usr/lib
+    cp *.a ~/lib
 
 In this case, you have to specify some environment variables before running `catkin_make`, which is discussed below.
 
